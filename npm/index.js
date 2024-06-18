@@ -41,7 +41,7 @@ const options = {
         },
       ],
     },
-    apis: ["npm/src/routes/login.js"],
+    apis: ["testForSwagger/npm/src/routes/login.js"],
   };
   
   const specs = swaggerJsdoc(options);
