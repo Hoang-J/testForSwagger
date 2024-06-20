@@ -17,7 +17,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(express.json()); 
 
 app.use(bodyParser.json());
-app.use("/api-docs", swaggerUI.serve,swaggerUI.setup(swaggerJsDocs));
+// app.use("/api-docs", swaggerUI.serve,swaggerUI.setup(swaggerJsDocs));
 
 
 
