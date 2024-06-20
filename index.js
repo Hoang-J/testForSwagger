@@ -78,7 +78,7 @@ Endpoint:
 */
 
 app.get('/', async (req, res) => {
-  res.json({ message: 'Welcome to the tech-refresher-backend API' });
+  res.json({ message: 'Welcome to the tech-refresher-backend API' })
 });
 
 app.get('/tech', async (req, res) => {
