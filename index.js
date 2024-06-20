@@ -6,9 +6,9 @@ const router = express.Router();
 const swaggerUI = require('swagger-ui-express');
 const YAML = require('yamljs');
 
+const app = express();
 const path = require('path');
 const bodyParser = require("body-parser"); // for parsing application/json
-const app = express();
 const db = pgp("postgres://kugfhzwa:XDEvpJvLkLV3cPozzlgmC2L9PRM5BJCw@ruby.db.elephantsql.com/kugfhzwa");
 
  
